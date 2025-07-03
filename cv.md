@@ -22,3 +22,27 @@ I’m learning Polish and English. It’s hard for me, but I do it because I hav
 * Figma
 
 
+## Languages:
+* Russian – native
+* English – A1, learn
+* Polish – B1, learn
+
+
+## Courses:
+* Sololearn: HTML for Beginner
+* Course by Dmitry Fokeev: Layout and creation of websites
+
+
+## Code examples:
+```
+day = int(input())
+if day == 6 or day == 7:
+    print('yes')
+elif day > 0 and day < 6:
+    print('no')
+else:
+    print('cheсk')
+
+```
+
+
