@@ -1,1 +1,1 @@
-# rsschool-cv
+https://natalimnv.github.io/rsschool-cv/cv
