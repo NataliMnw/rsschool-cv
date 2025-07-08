@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: lightgray;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #1d3b21;
+    transition: color 0.5s;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #1b301e;
+    font-family: 'Roboto-Bold', sans-serif;
+
+}
+
+.container-left {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: rgb(27, 26, 26);
+    padding: 1rem;
+    color: #a7b9a9;
+}
+
+.photo {
+    display: block;
+    text-align: center;
+}
+
+.section {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Roboto-Black', sans-serif;
+    font-size: 18px;
+}
+
+.line {
+    width: 100%;
+    background-color: #a7b9a9;
+    height: 0.1rem;
+}
+
+.nobullet {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Roboto-Regular';
+}
+
+.container-right {
+    width: 65%;
+    background-color: whitesmoke;
+    padding: 1rem;
+    color: rgb(27, 26, 26);
+    border: black solid 1px;
+}
+
+.name {
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.line-right {
+    width: 100%;
+    background-color: black;
+    height: 0.1rem;
+
+}
+
+.text {
+    font-family: 'Roboto-Bold'
+}
+
+.projects_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects_item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.picture {
+    border: 2px solid black;
+}
+
+.footer-container {
+    background-color: rgb(27, 26, 26);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.footer_github {
+    display: flex;
+    align-items: center;
+}
+
+.year {
+    font-family: 'Roboto-Bold';
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
